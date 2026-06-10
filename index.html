@@ -28,18 +28,16 @@
 
             <tr>
                 <td style="background:#1e3a5f; color:#ecf0f1; font-weight:bold; font-size:14px; padding:12px 16px; letter-spacing:1px; text-transform:uppercase">
-                    🔍 Introduction to Password Manager
+                    🔍 Introduction to Password Managers
                 </td>
             </tr>
 
             <tr><td style="padding:30px 28px; min-height: 300px; vertical-align:top;">
-                
-            <ul style="line-height:1.8; font-size:14px; color:#333;">
-                <li><b>What is Password Manager?</b> A traditional password management solution designed primarily for individual or centralized credential storage.</li>
-                <li><b>Core Functionality:</b> Secure vault for storing passwords, notes, and sensitive data.</li>
-                <li><b>Standard Workflow:</b> Users authenticate to access a personal or shared vault, typically utilizing a master password.</li>
-            </ul>
-        
+                <ul style="line-height:1.8; font-size:14px; color:#333;">
+                    <li><b>What is a Traditional Password Manager?</b> A digital vault solution designed primarily for individual or centralized credential storage.</li>
+                    <li><b>Core Functionality:</b> Acts as a locked repository for storing web logins, secure notes, and sensitive credentials.</li>
+                    <li><b>Standard Workflow:</b> Users authenticate with a single Master Password to unlock a personal database usually managed by a third-party cloud.</li>
+                </ul>
             </td></tr>
 
             <tr><td style="background:#0d2137; padding:20px 28px; text-align:center">
@@ -64,25 +62,23 @@
 
             <tr>
                 <td style="background:#1e3a5f; color:#ecf0f1; font-weight:bold; font-size:14px; padding:12px 16px; letter-spacing:1px; text-transform:uppercase">
-                    🔍 FAQs of Password Manager
+                    🔍 FAQs of Traditional Password Managers
                 </td>
             </tr>
 
             <tr><td style="padding:30px 28px; min-height: 300px; vertical-align:top;">
-                
-            <div style="background:#f8f9fa; padding:12px; border-left:4px solid #1e3a5f; margin-bottom:10px;">
-                <strong style="color:#1e3a5f;">Q: Where is data stored?</strong><br>
-                A: Password Manager typically relies on centralized cloud or local database storage depending on the deployment model.
-            </div>
-            <div style="background:#f8f9fa; padding:12px; border-left:4px solid #1e3a5f; margin-bottom:10px;">
-                <strong style="color:#1e3a5f;">Q: How are backups handled?</strong><br>
-                A: Backups are usually handled at the database level by the system administrator.
-            </div>
-            <div style="background:#f8f9fa; padding:12px; border-left:4px solid #1e3a5f;">
-                <strong style="color:#1e3a5f;">Q: Does it support granular sharing?</strong><br>
-                A: Sharing is often limited to folder-level access or basic direct sharing without deep cryptographic verification per user.
-            </div>
-        
+                <div style="background:#f8f9fa; padding:12px; border-left:4px solid #1e3a5f; margin-bottom:10px;">
+                    <strong style="color:#1e3a5f;">Q: Where is data stored?</strong><br>
+                    A: Most mainstream options rely on centralized corporate cloud servers or local standalone databases.
+                </div>
+                <div style="background:#f8f9fa; padding:12px; border-left:4px solid #1e3a5f; margin-bottom:10px;">
+                    <strong style="color:#1e3a5f;">Q: Can the service provider reset my password?</strong><br>
+                    A: In many traditional setups, yes, through standard email loops or administrator account overrides.
+                </div>
+                <div style="background:#f8f9fa; padding:12px; border-left:4px solid #1e3a5f;">
+                    <strong style="color:#1e3a5f;">Q: Does it support safe data-sharing options?</strong><br>
+                    A: Sharing is usually limited to broad folder-level configurations or basic syncing, often lacking isolated, per-user cryptographic keys.
+                </div>
             </td></tr>
 
             <tr><td style="background:#0d2137; padding:20px 28px; text-align:center">
@@ -112,19 +108,17 @@
             </tr>
 
             <tr><td style="padding:30px 28px; min-height: 300px; vertical-align:top;">
-                
-            <ul style="line-height:1.8; font-size:14px; color:#333;">
-                <li><b>What is Passbolt?</b> An open-source, team-first password manager designed specifically for Agile and DevOps teams.</li>
-                <li><b>Security Model:</b> Utilizes end-to-end encryption using OpenPGP. The server never sees the unencrypted passwords.</li>
-                <li><b>Key Use Cases:</b>
-                    <ul>
-                        <li><b>SOC Teams:</b> Securely sharing critical incident response credentials.</li>
-                        <li><b>DevOps:</b> Integrating secrets into CI/CD pipelines via API.</li>
-                        <li><b>IT Departments:</b> Role-based access control (RBAC) for infrastructure passwords.</li>
-                    </ul>
-                </li>
-            </ul>
-        
+                <ul style="line-height:1.8; font-size:14px; color:#333;">
+                    <li><b>What is Passbolt?</b> An open-source, team-first, zero-knowledge password manager designed for technical and enterprise environments.</li>
+                    <li><b>The Two-Gate Security Model:</b> Utilizes local asymmetric OpenPGP keys. Your <b>Master Password</b> unlocks your unique local <b>Private Key</b> right inside your browser extension to unscramble your passwords. The actual server never sees your master password or unencrypted secrets.</li>
+                    <li><b>Key Use Cases:</b>
+                        <ul>
+                            <li><b>Data Sovereignty:</b> Organizations looking to self-host their own vault so corporate logins never touch a third-party server.</li>
+                            <li><b>Granular Vault Management:</b> Sharing access to a single password with specific team members without giving away control of an entire folder.</li>
+                            <li><b>Securing Infrastructure:</b> Storing individual API keys, server SSH credentials, or config profiles away from shared chats.</li>
+                        </ul>
+                    </li>
+                </ul>
             </td></tr>
 
             <tr><td style="background:#0d2137; padding:20px 28px; text-align:center">
@@ -154,35 +148,33 @@
             </tr>
 
             <tr><td style="padding:30px 28px; min-height: 300px; vertical-align:top;">
-                
-            <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; margin-top:10px;">
-                <tr>
-                    <th style="background:#2c3e50; color:#ecf0f1; padding:8px 12px; text-align:left; font-size:12px; font-weight:bold;">Feature</th>
-                    <th style="background:#2c3e50; color:#ecf0f1; padding:8px 12px; text-align:left; font-size:12px; font-weight:bold;">Password Manager</th>
-                    <th style="background:#2c3e50; color:#ecf0f1; padding:8px 12px; text-align:left; font-size:12px; font-weight:bold;">Passbolt</th>
-                </tr>
-                <tr style="background:#ffffff; border-bottom:1px solid #f0f0f0;">
-                    <td style="padding:10px 12px; font-size:13px; color:#333;"><b>Primary Focus</b></td>
-                    <td style="padding:10px 12px; font-size:13px; color:#333;">Individual / Basic Team</td>
-                    <td style="padding:10px 12px; font-size:13px; color:#333;"><span style="background:#e8f4fd; color:#1a5276; padding:2px 8px; border-radius:10px; font-weight:bold;">Team Collaboration</span></td>
-                </tr>
-                <tr style="background:#f8fafc; border-bottom:1px solid #f0f0f0;">
-                    <td style="padding:10px 12px; font-size:13px; color:#333;"><b>Encryption</b></td>
-                    <td style="padding:10px 12px; font-size:13px; color:#333;">Standard AES</td>
-                    <td style="padding:10px 12px; font-size:13px; color:#333;">Asymmetric OpenPGP</td>
-                </tr>
-                <tr style="background:#ffffff; border-bottom:1px solid #f0f0f0;">
-                    <td style="padding:10px 12px; font-size:13px; color:#333;"><b>Hosting</b></td>
-                    <td style="padding:10px 12px; font-size:13px; color:#333;">SaaS / Local DB</td>
-                    <td style="padding:10px 12px; font-size:13px; color:#333;">Self-Hosted / Cloud</td>
-                </tr>
-                <tr style="background:#f8fafc; border-bottom:1px solid #f0f0f0;">
-                    <td style="padding:10px 12px; font-size:13px; color:#333;"><b>Granular RBAC</b></td>
-                    <td style="padding:10px 12px; font-size:13px; color:#333;">Limited</td>
-                    <td style="padding:10px 12px; font-size:13px; color:#333;"><span style="background:#e6f9ef; color:#1a6b3c; padding:2px 8px; border-radius:10px; font-weight:bold;">Extensive</span></td>
-                </tr>
-            </table>
-        
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse; margin-top:10px;">
+                    <tr>
+                        <th style="background:#2c3e50; color:#ecf0f1; padding:8px 12px; text-align:left; font-size:12px; font-weight:bold;">Feature</th>
+                        <th style="background:#2c3e50; color:#ecf0f1; padding:8px 12px; text-align:left; font-size:12px; font-weight:bold;">Password Manager</th>
+                        <th style="background:#2c3e50; color:#ecf0f1; padding:8px 12px; text-align:left; font-size:12px; font-weight:bold;">Passbolt</th>
+                    </tr>
+                    <tr style="background:#ffffff; border-bottom:1px solid #f0f0f0;">
+                        <td style="padding:10px 12px; font-size:13px; color:#333;"><b>Primary Focus</b></td>
+                        <td style="padding:10px 12px; font-size:13px; color:#333;">Individual / Basic Vaults</td>
+                        <td style="padding:10px 12px; font-size:13px; color:#333;"><span style="background:#e8f4fd; color:#1a5276; padding:2px 8px; border-radius:10px; font-weight:bold;">Secure Team Ownership</span></td>
+                    </tr>
+                    <tr style="background:#f8fafc; border-bottom:1px solid #f0f0f0;">
+                        <td style="padding:10px 12px; font-size:13px; color:#333;"><b>Encryption Model</b></td>
+                        <td style="padding:10px 12px; font-size:13px; color:#333;">Standard Symmetric (AES)</td>
+                        <td style="padding:10px 12px; font-size:13px; color:#333;">Asymmetric OpenPGP (Two-Key Pair)</td>
+                    </tr>
+                    <tr style="background:#ffffff; border-bottom:1px solid #f0f0f0;">
+                        <td style="padding:10px 12px; font-size:13px; color:#333;"><b>Hosting Control</b></td>
+                        <td style="padding:10px 12px; font-size:13px; color:#333;">Vendor-Managed Cloud</td>
+                        <td style="padding:10px 12px; font-size:13px; color:#333;">Full Self-Hosted / Private Cloud</td>
+                    </tr>
+                    <tr style="background:#f8fafc; border-bottom:1px solid #f0f0f0;">
+                        <td style="padding:10px 12px; font-size:13px; color:#333;"><b>Code Auditing</b></td>
+                        <td style="padding:10px 12px; font-size:13px; color:#333;">Proprietary / Closed Source</td>
+                        <td style="padding:10px 12px; font-size:13px; color:#333;"><span style="background:#e6f9ef; color:#1a6b3c; padding:2px 8px; border-radius:10px; font-weight:bold;">100% Open Source</span></td>
+                    </tr>
+                </table>
             </td></tr>
 
             <tr><td style="background:#0d2137; padding:20px 28px; text-align:center">
@@ -207,23 +199,39 @@
 
             <tr>
                 <td style="background:#1e3a5f; color:#ecf0f1; font-weight:bold; font-size:14px; padding:12px 16px; letter-spacing:1px; text-transform:uppercase">
-                    🔍 What Ifs / FAQ to Passbolt
+                    🔍 Passbolt FAQs &amp; Emergency Scenarios
                 </td>
             </tr>
 
-            <tr><td style="padding:30px 28px; min-height: 300px; vertical-align:top;">
+            <tr><td style="padding:25px 28px; min-height: 350px; vertical-align:top;">
                 
-            <div style="background:#fff8e1; border-left:4px solid #f9a825; border-radius:4px; padding:12px 16px; margin-bottom:12px;">
-                <div style="color:#7a5000; font-size:12px; font-weight:bold; margin-bottom:6px;">⚠ What if I lose my private key?</div>
-                <div style="color:#7a5000; font-size:11px; line-height:1.7;">Passbolt relies on OpenPGP. If you lose your private key and haven't configured an account recovery protocol, you <b>cannot recover your account</b>. Always maintain secure backups of your key. However, the admin may provide the private key if requested.</div>
+            <div style="background:#fff8e1; border-left:4px solid #f9a825; border-radius:4px; padding:10px 14px; margin-bottom:12px;">
+                <div style="color:#7a5000; font-size:12px; font-weight:bold; margin-bottom:4px;">⚠ What if I lose my Private Key or forget my Master Password?</div>
+                <div style="color:#7a5000; font-size:11px; line-height:1.6;">Because Passbolt is built on asymmetric OpenPGP encryption, your key pair is strictly your responsibility. <b>Systems administrators do not store, manage, or have access to your Private Key or Master Password.</b> If lost, your account data cannot be recovered. Always download and secure your Recovery Kit.</div>
             </div>
-            <div style="background:#f8f9fa; padding:12px; border-left:4px solid #1e3a5f; margin-bottom:10px;">
-                <strong style="color:#1e3a5f;">Q: What if the self-hosted server goes down?</strong><br>
-                A: The browser extension caches credentials locally for offline access (if enabled), allowing temporary read-only access until the server is restored.
-            </div>
-            <div style="background:#f8f9fa; padding:12px; border-left:4px solid #1e3a5f;">
-                <strong style="color:#1e3a5f;">Q: How do we onboard new SOC analysts securely?</strong><br>
-                A: Admins invite users, users generate their own PGP keys locally, and admins cryptographically verify their identity before granting vault access.
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                <div>
+                    <div style="background:#f8f9fa; padding:10px; border-left:4px solid #1e3a5f; margin-bottom:10px;">
+                        <strong style="color:#1e3a5f;">Q: What if the Passbolt server gets hacked?</strong><br>
+                        A: Attackers only compromise encrypted blobs. Because decryption requires your local Private Key and Master Password, a server breach does not expose your passwords.
+                    </div>
+                    <div style="background:#f4e6e6; padding:10px; border-left:4px solid #c0392b;">
+                        <strong style="color:#c0392b;">Q: What if the server goes down or is blocked on Wi-Fi?</strong><br>
+                        A: <b>Critical Limitation:</b> Passbolt is a strict client-server application and lacks an offline mode. If the extension session has expired or cannot reach the server, it will freeze on "Connecting..." and completely lock you out.
+                    </div>
+                </div>
+                
+                <div>
+                    <div style="background:#f8f9fa; padding:10px; border-left:4px solid #1e3a5f; margin-bottom:10px;">
+                        <strong style="color:#1e3a5f;">Q: Can IT admins or Passbolt see my secrets?</strong><br>
+                        A: No. Your browser extension encrypts data locally into gibberish before sending it anywhere. Only your device holds the decryption mechanics.
+                    </div>
+                    <div style="background:#f8f9fa; padding:10px; border-left:4px solid #1e3a5f;">
+                        <strong style="color:#1e3a5f;">Q: Why force a browser extension?</strong><br>
+                        A: Web apps can be tampered with. A local extension performs all critical cryptographic handshakes locally, protecting you from phishing vectors.
+                    </div>
+                </div>
             </div>
         
             </td></tr>
